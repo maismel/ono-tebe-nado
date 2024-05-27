@@ -47,16 +47,16 @@
 }
 
 .address {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
   width: 240.52px;
   margin-right: 25px;
   font-style: normal;
 }
 
 .address__info {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
@@ -65,14 +65,6 @@
 .address__info:hover {
   color: #EAABD8;
   transition: 0.6s;
-}
-
-.address__info_no-underline {
-  text-decoration: none;
-}
-
-.address__info_no-underline:hover {
-  color: #000;
 }
 
 /* --------main-------- */
@@ -287,7 +279,6 @@
 .about__column {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-columns: auto 1fr;
   column-gap: 72px;
   grid-row-gap: 8px;
 }
@@ -326,19 +317,18 @@
 }
 
 .about__text p {
-  /*Насколько я поняла, этот отступ применился только ко второму абзацу, мне, конечно, так и надо, но всё же я не понимаю, почему к первому абзацу этот отсутп не применяется*/
   margin-bottom: 25px;
 }
 
-.about__text_under {
-  margin-top: 1em;
+.about__text p:last-child {
+  margin-bottom: 0;
 }
 
 /* --------footer-------- */
 
 .footer {
   width: 1000px;
-  margin: 155px auto 88px;
+  margin: 180px auto 88px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
