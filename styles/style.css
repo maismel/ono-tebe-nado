@@ -107,6 +107,7 @@
 .aligned-text {
   line-height: 115px;
   letter-spacing: 0.3em;
+  display: block;
 }
 
 .aligned-text_center {
@@ -114,6 +115,7 @@
   letter-spacing: 0.3em;
   padding-top: 13px;
   text-align: center;
+  display: block;
 }
 
 .aligned-text_right {
@@ -121,6 +123,7 @@
   letter-spacing: 0.3em;
   text-align: end;
   padding-top: 5px;
+  display: block;
 }
 
 .letter-spacing-extended {
